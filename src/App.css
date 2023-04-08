@@ -1,0 +1,68 @@
+@import url('http://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  font-family: 'Roboto',sans-serif;
+  background:#141414;
+} 
+.App {
+    /* text-align: center; */
+  background:#141414; 
+ 
+  color: #c60000;
+  height: 768px;
+  
+  
+}
+
+.search-buttom {
+  background-color: rgb(255, 255, 255);
+  color: #3c3b3b;
+  box-shadow: 0 0 5px #353333;
+}
+ .search-buttom:active::before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+   height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    border-top-color:#000 ;
+    animation: spin 0.5s linear infinite;
+ }
+ @keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+ }
+    
+.film-css >.row {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    
+}
+.image-container {
+  position: relative;
+  transition: transform ;
+}
+.image-container {
+  position: relative;
+  transition: transform 0.3;
+}
+.image-container:hover {
+  cursor :pointer;
+  transform: scale(1.05);
+
+}
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.image-container:hover >.overlay  {
+  opacity: 1;
+}

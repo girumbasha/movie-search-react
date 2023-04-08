@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #141414;
+    height: 100vh;
+    
+    background-image: url('/path/to/images/movie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
