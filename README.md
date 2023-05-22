@@ -1,4 +1,4 @@
-# Movie Poster Search is a React-based app that allows users to quickly and easily search for movie posters. with a simple interface and fast search functionality, it's the perfect tool for movie enthusiasts and casual viewers alike.
+## Movie Poster Search is a React-based app that allows users to quickly and easily search for movie posters. with a simple interface and fast search functionality, it's the perfect tool for movie enthusiasts and casual viewers alike.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
